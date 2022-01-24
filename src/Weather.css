@@ -1,0 +1,87 @@
+.Weather .container{text-align: center;}
+.Weather .card {
+  justify-content: center;
+  margin:0 auto;
+  background: #000000d0;
+  color: black;
+  padding: 2em;
+  border-radius: 20px;
+  max-width: 500px;
+  background-color:  hsla(0, 0%, 0%, 0);
+  box-shadow: -38px -17px 68px 2px rgba(42, 7, 245, 0.2);
+}
+.Weather .submit-button{
+  border-radius: 20px;
+  border: none;
+  height: 2.5em;
+  outline: none;
+  padding: 2px;
+  background: #7c7c7c2b;
+  color:white;
+}
+.Weather .date-and-time{
+  font-size: 25px;
+   font-weight: bold}
+.Weather .city {
+  font-size: 34px;
+   justify-content: center;
+  align-items: center;
+  margin:0 auto;
+}
+
+.Weather .w-icon{
+ height: 84px;
+ width: 84px;
+}
+.Weather .celsius{
+   position: relative;
+  font-size: 30px;
+ top:-64px;
+ right:-64px;
+}
+
+.Weather .temp {
+  font-size: 4em;
+  font-weight: lighter;
+}
+.Weather .description {
+  font-size: 30px;
+}
+
+.Weather .pressure {
+  font-size: 30px;
+}
+
+.Weather .humidity {
+  font-size: 30px;
+}
+
+.Weather .wind {
+  font-size: 30px;
+}
+ .Weather .search-input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
+  border-radius: 20px;
+  height: 2.5em;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  padding: 2px;
+  color:white;
+}
+.Weather .search {
+  display: block;
+  margin: 0 auto;
+}
+.Weather .active{
+  color:black;
+cursor:default;
+text-decoration: none;
+}
+.Weather .active:hover{
+  text-decoration: none;
+}
+
