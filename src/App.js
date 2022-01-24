@@ -5,15 +5,15 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-    <Weather defaultCity="Krakow"/>
+        <Weather defaultCity="Krakow" />
         <footer>
           <a
-            href="https://github.com/natkaulaP/vanilla"
+            href="https://github.com/natkaulaP/react-weather-app"
             target="_blank"
-            class="contact"
+            className="contact"
             rel="noreferrer"
           >
-            Open-source code by <span class="label">Urszula Paruch</span>
+            Open-source code by <span className="label">Urszula Paruch</span>
           </a>
         </footer>
       </div>
