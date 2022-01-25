@@ -45,19 +45,19 @@
   font-weight: lighter;
 }
 .Weather .description {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .Weather .pressure {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .Weather .humidity {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .Weather .wind {
-  font-size: 30px;
+  font-size: 20px;
 }
  .Weather .search-input {
   display: inline-flex;
