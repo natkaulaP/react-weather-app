@@ -13,18 +13,17 @@ export default function WeatherInfo(props) {
           <WeatherIcon code={props.data.icon} size={52} />
           <div className="float-left">
             <WeatherTemp celsius={props.data.temperature} />
-            
           </div>
         </div>
-        <div className="col-3"></div>
       </div>
-
-      <div className="description text-capitalize">
-        {props.data.description}
+      <div className="col-6">
+        <div className="description text-capitalize">
+          {props.data.description}
+        </div>
+        <div className="pressure">Pressure: {props.data.pressure}mb</div>
+        <div className="humidity">Humidity: {props.data.humidity}%</div>
+        <div className="wind">Wind speed: {props.data.wind}km/h</div>
       </div>
-      <div className="pressure">Pressure: {props.data.pressure}mb</div>
-      <div className="humidity">Humidity: {props.data.humidity}%</div>
-      <div className="wind">Wind speed: {props.data.wind}km/h</div>
     </div>
   );
 }
