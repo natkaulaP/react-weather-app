@@ -21,28 +21,26 @@
 }
 .Weather .date-and-time{
   font-size: 25px;
-   font-weight: bold}
+   font-weight: lighter;
+ 
+  }
 .Weather .city {
   font-size: 34px;
-   justify-content: center;
+  text-align: center;
   align-items: center;
   margin:0 auto;
 }
 
-.Weather .w-icon{
- height: 84px;
- width: 84px;
+.Weather canvas{
+ margin:10 px auto;
 }
-.Weather .celsius{
-   position: relative;
-  font-size: 30px;
- top:-64px;
- right:-64px;
+.Weather .unit{
+  font-size: 20px;
 }
 
 .Weather .temp {
-  font-size: 4em;
-  font-weight: lighter;
+  font-size: 6em;
+  font-weight: bold;
 }
 .Weather .description {
   font-size: 20px;
