@@ -1,6 +1,6 @@
 .Weather .container{text-align: center;}
 .Weather .card {
-  justify-content: center;
+text-align: center;
   margin:0 auto;
   background: #000000d0;
   color: black;
@@ -19,17 +19,17 @@
   background: #7c7c7c2b;
   color:white;
 }
-.Weather .date-and-time{
-  font-size: 25px;
-   font-weight: lighter;
- 
-  }
 .Weather .city {
   font-size: 34px;
-  text-align: center;
   align-items: center;
   margin:0 auto;
 }
+.Weather .date-and-time{
+  font-size: 25px;
+   font-weight: lighter;
+
+  }
+
 
 .Weather canvas{
  margin:10 px auto;
