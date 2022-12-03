@@ -1,4 +1,7 @@
-.Weather .container{text-align: center;}
+.Weather .container{
+  text-align: center;
+  
+}
 .Weather .card {
 text-align: center;
   margin:0 auto;
@@ -32,7 +35,7 @@ text-align: center;
 
 
 .Weather canvas{
- margin:10 px auto;
+ margin:10px auto;
 }
 .Weather .unit{
   font-size: 20px;
@@ -42,7 +45,7 @@ text-align: center;
   font-size: 6em;
   font-weight: bold;
 }
-.Weather .description {
+.Weather .description{ 
   font-size: 20px;
 }
 
@@ -50,7 +53,7 @@ text-align: center;
   font-size: 20px;
 }
 
-.Weather .humidity {
+.Weather .humidity{
   font-size: 20px;
 }
 

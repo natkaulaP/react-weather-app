@@ -6,18 +6,21 @@ import WeatherTemp from "./WeatherTemp";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <div className="weather-info col-9">
+      <div className="row">
+      <div className="weather-info col">
         <h2 className="city">{props.data.city}</h2>
         <FormattedDate date={props.data.date} />
-        <div className="clearfix">
-          <div className="float-left">
+        <div className="weather-column">
+          
+
+          
+          <div className="float">
           <WeatherIcon code={props.data.icon} size={52} />
           
             <WeatherTemp celsius={props.data.temperature} />
-          </div>
-        </div>
+          
       </div>
-      <div className="col-9">
+      <div className="col">
         <div className="description text-capitalize">
           {props.data.description}
         </div>
@@ -26,5 +29,9 @@ export default function WeatherInfo(props) {
         <div className="wind">Wind speed: {props.data.wind}km/h</div>
       </div>
     </div>
+    </div>
+    </div>
+    </div>
+        
   );
 }
